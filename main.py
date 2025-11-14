@@ -5,6 +5,8 @@ import requests
 import pandas as pd
 from db import insert_tax_dolar_tipo  # <- IMPORTANTE: a função que recebe o tipo
 
+#commit
+
 MAX_LOOKBACK_DAYS = 5
 SLEEP_SECONDS = 24 * 60 * 60  # 24 horas
 
